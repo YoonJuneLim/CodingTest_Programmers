@@ -8,7 +8,7 @@ int main(void){
     int angle2;
     cin >> angle1 >> angle2;
     
-    int sum_angle = (angle1 + angle2)%360;
+    int sum_angle = (angle1 + angle2)%360; // int sum_angle = angle1 + angle2;
     cout << sum_angle << endl;
     return 0;
 }
